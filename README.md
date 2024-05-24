@@ -56,7 +56,7 @@ Verify and activate your configuration:
 Now, try and go to `http://<yourserver>/info`. You should see something like this:
 
 <div style="overflow:scroll; height:12rem">
-  <p style='text-align:center'>Do, 23.05.2024<br/>19.3/23.6°C/0 mm<br/>Bedeckt</p><p style='text-align:center'>Fr, 24.05.2024<br/>17.5/24.8°C/0 mm<br/>Bedeckt</p><p style='text-align:center'>Sa, 25.05.2024<br/>14.2/24.2°C/5 mm<br/>Leichter Regen/Bed.</p><p style='text-align:center'>So, 26.05.2024<br/>13.7/24.8°C/1 mm<br/>Leichter Regen/Mäßig bew.</p><p style='text-align:center'>Mo, 27.05.2024<br/>14.3/25.7°C/0 mm<br/>Bed./Überw. bew.</p><p style='text-align:center'>Di, 28.05.2024<br/>13.2/16.6°C/4 mm<br/>Leichter Regen</p>
+  <p style='text-align:center'>Do, 23.05.2024<br/>19,3/23,6°C/0 mm<br/>Bedeckt</p><p style='text-align:center'>Fr, 24.05.2024<br/>17,5/24,8°C/0 mm<br/>Bedeckt</p><p style='text-align:center'>Sa, 25.05.2024<br/>14,2/24,2°C/5 mm<br/>Leichter Regen/Bed.</p><p style='text-align:center'>So, 26.05.2024<br/>13,7/24,8°C/1 mm<br/>Leichter Regen/Mäßig bew.</p><p style='text-align:center'>Mo, 27.05.2024<br/>14,3/25,7°C/0 mm<br/>Bed./Überw. bew.</p><p style='text-align:center'>Di, 28.05.2024<br/>13,2/16,6°C/4 mm<br/>Leichter Regen</p>
 </div>
 
 Also, check `http://<yourserver>/info/menu.jsp` and `http://<yourserver>/info/request.do` which should show the same thing.
