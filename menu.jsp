@@ -50,7 +50,9 @@ $api_key = getenv('OPENWEATHERMAP_API_KEY');
       $weatherTypes = $data['weather_types'];
 
       echo "<p style='text-align:center'>$date<br/>";
-      echo sprintf('%.1f/%.1f°C/%.0f mm', $minTemp, $maxTemp, $totalRain), "<br/>";
+      echo str_replace('.', ',',
+          sprintf('%.1f/%.1f°C/%.0f mm', $minTemp, $maxTemp, $totalRain)),
+        "<br/>";
       echo implode('/', $weatherTypes) . "</p>";
     }
   } catch (Exception $e) {
